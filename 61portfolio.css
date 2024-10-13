@@ -1,0 +1,622 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+@media screen and (max-width:2000px) {
+    /* home */
+.top{
+    
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.thead{
+    font-family: 'Fasthand', cursive;
+    font-size: 30px;
+    color: purple;
+    padding: 15px;
+}
+.tlsit{
+    position: absolute;
+    right: 0px;
+}
+
+.tlist ul li{
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.tlist ul li:hover{
+    
+    background-color: beige;
+}
+.tlist ul li a{
+    color: grey;
+    text-decoration: none;
+}
+.tlist ul{
+    margin-left: 200px;
+}
+.bottom{
+   
+    display: flex;
+    height: auto;
+}
+.left{
+    width: 50%;
+    height: 800px;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+.lhead{
+    font-size: 70px;
+    padding: 20px 0;
+}
+.lcontent{
+    font-size: 35px;
+    margin: 5px;
+    word-spacing: 2px;
+}
+.left img{
+    width: 80px;
+}
+.hicons{
+    display: flex;
+    
+}
+.hicons1,.hicons2{
+    display: flex;
+}
+
+
+.hi1{
+    margin: 8px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('github2.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    inset 5px 5px 15px rgba(0,0,0,0.35);
+}
+.hi1:hover{
+    background-image: url('github1.png');
+}
+.hi2{
+    margin: 8px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('linkedin2.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    inset 5px 5px 15px rgba(0,0,0,0.35);
+}
+.hi2:hover{
+    background-image: url('linkedin1.png');
+}
+.hi3{
+    margin: 8px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('mail2.png');
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    inset 5px 5px 15px rgba(0,0,0,0.35);
+}
+.hi3:hover{
+    background-image: url('mail1.png');
+}
+.hi4{
+    margin: 8px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('gitlab2.png');
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    inset 5px 5px 15px rgba(0,0,0,0.35);
+}
+.hi4:hover{
+    background-image: url('gitlab1.png');
+}
+.hi5{
+    margin: 8px;
+    padding: 5px;
+    width: 53px;
+    height: 50px;
+    background-image: url('facebook2.png');
+    background-size: cover;
+    border-radius: 30px;
+    background-position: center;
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    inset 5px 5px 15px rgba(0,0,0,0.35);
+}
+.hi5:hover{
+    background-image: url('facebook1.png');
+}
+.hi6{
+    margin: 8px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('medium2.png');
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    inset 5px 5px 15px rgba(0,0,0,0.35);
+}
+.hi6:hover{
+    background-image: url('medium1.png');
+}
+.hi7{
+    margin: 8px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('stackoverflow1.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    inset 5px 5px 15px rgba(0,0,0,0.35);
+}
+.hi7:hover{
+   
+    background-image: url('stackoverflow2.png');
+}
+.button{
+    margin-top: 60px;
+    display: flex;
+}
+.button ul li{
+    display: inline-block;
+    margin-right: 60px;
+    background-color: blueviolet;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    inset 5px 5px 15px rgba(0,0,0,0.35);
+}
+
+.button ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.button ul li:hover{
+    background-color: white;
+    border: 2px solid blueviolet;
+}
+.button ul li:hover a{
+    color: black;
+   
+}
+.right{
+    
+    width: 50%;
+    height: auto;
+    margin-top: 150px;
+}
+.right img{
+    border-radius: 20px;
+    margin: 80px;
+    width: 80%;
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    inset 5px 5px 15px rgba(0,0,0,2.5);
+}
+
+
+
+/* skill */
+.sicons{
+    display: flex;
+    padding: 20px 0px;
+}
+.sicon1,.sicon2{
+    display: flex;
+}
+
+.si1{
+    width: 80px;
+    height: 100px;
+    background-image: url('html2.png');
+    background-size: cover;
+}
+.si1:hover{
+    background-image: url('html1.png');
+}
+.si2{
+    width: 60px;
+    height: 100px;
+    background-image: url('css2.png');
+    background-size: cover;
+}
+.si2:hover{
+    background-image: url('css1.png');
+}
+.si3{
+    width: 100px;
+    height: 100px;
+    background-image: url('js2.png');
+    background-size: cover;
+}
+.si3:hover{
+    background-image: url('js1.png');
+}
+.si4{
+    width: 80px;
+    height: 100px;
+    background-image: url('react2.png');
+    background-size: cover;
+}
+.si4:hover{
+    background-image: url('react1.png');
+}
+.si5{
+    width: 75px;
+    height: 100px;
+    background-image: url('node2.png');
+    background-size: cover;
+}
+.si5:hover{
+    background-image: url('node1.png');
+}
+.si6{
+    width: 60px;
+    height: 100px;
+    background-image: url('swift2.png');
+    background-size: cover;
+}
+.si6:hover{
+    background-image: url('swift1.png');
+}
+.si8{
+    width: 80px;
+    height: 100px;
+    background-image: url('python2.png');
+    background-size: cover;
+}
+.si8:hover{
+    background-image: url('python1.png');
+}
+
+
+
+
+
+/* project */
+.pbottom{
+    width: 100%;
+    height: 800px;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+.phead{
+    font-size: 70px;
+    padding: 20px 20px;
+    width: 90%;
+    border-bottom: 5px solid cornflowerblue;
+    margin-bottom: 40px;
+}
+.ptable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r1,.r2,.r3{
+    width: 80%;
+}
+.c1,.c2{
+    width: 80%;
+    height: auto;
+    padding: 30px;
+    border: 2px solid brown;
+    margin: 10px;
+    border-radius: 20px;
+}
+.c1:hover{
+    background-color: beige;
+}
+.c2:hover{
+    background-color: beige;
+}
+.ptable a{
+    text-decoration: none;
+}
+.c1 span{
+    font-size: 30px;
+    padding: 20px;  
+    color: black;
+    
+}
+.c1 p{
+    font-size: 20px;
+    color: black;
+    
+    word-spacing: 3px;
+}
+
+
+
+
+
+/* Education */
+.e1,.e2{
+    display: flex;
+    justify-content: center;
+        align-items: center;
+}
+table{
+    border: 5px solid rgb(85, 107, 251);
+}
+.e1 .eimg{
+    border-radius: 20px;
+    width: 190px;
+    height: 160px;
+    background-image: url('davlogo.png');
+    background-size: cover;
+    margin-right: 90px;
+}
+.e1 .edutab tr td{
+    padding: 10px 40px;
+    font-size: 20px;
+    border: 5px solid rgb(85, 107, 251);
+}
+.e1 .edutab tr td:hover{
+    background-color:teal;
+    font-weight: bold;
+    color: white;
+}
+.e2 .eimg{
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
+    background-image: url('shankaracharyalogo.png');
+    background-size: cover;
+    margin-right: 85px;
+}
+.e2 .edutab tr td{
+    padding: 10px 35.5px;
+    font-size: 20px;
+    border: 5px solid rgb(85, 107, 251);
+}
+.e2 .edutab tr td:hover{
+    background-color:teal;
+    font-weight: bold;
+    color: white;
+}
+.eimg:hover{
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    inset 5px 5px 15px rgba(0,0,0,0.35);
+}
+
+
+
+
+
+/* contact */
+.chead{
+    font-size: 50px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    background-color:azure;
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    inset 5px 5px 15px rgba(0,0,0,0.35);
+    color: darkblue;
+}
+.register input{
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid red;
+}
+
+
+
+
+
+/* achievements */
+.abox{
+    display: flex;
+}
+.abox1{
+    display: flex;
+    width: 80%;
+}
+.abox2{
+    display: flex;
+    width: 50%;
+    margin-right: 100px;
+}
+.abx{
+    width: auto;
+    height: 400px;
+    margin: 10px;
+    background-color: azure;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.abox .abx img{
+    width: 220px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    inset 5px 5px 15px rgba(0,0,0,0.35);   
+}
+.abx:hover{
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    inset 5px 5px 15px rgba(0,0,0,0.35);
+}
+}
+
+
+
+
+
+
+
+/* CSS */
+@media screen and (max-width:1400px){
+    /* home */
+    .tlist ul li a{
+        font-size: 20px;
+    }
+    .lhead{
+        font-size: 50px;
+    }
+    .tlist ul{
+        margin-left: 150px;
+    }
+    .lcontent{
+        font-size: 20px;
+    }
+    .right img{
+        margin-top: 50px;
+    }
+    .left{
+        margin-top: 50px;
+    }
+    /* project */
+    .ptable{
+        flex-direction: column;
+    }
+    .r1,.r2,.r3{
+        display: flex;
+    }
+    
+
+}
+@media screen and (max-width:1000px){
+    .right img{
+        margin-top: 200px;
+    }
+    .lhead{
+        margin-top: 100px;
+    }
+    .button ul li{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .hicons{
+        display: block;
+    }
+    /* skill */
+    .sicons{
+        flex-direction: column;
+    }
+    /* education */
+    .e1,.e2{
+        flex-direction: column;
+    }
+    /* achievement */
+    .abox{
+        flex-direction: column;
+    }
+    .abox1{
+        flex-direction: row;
+    }
+
+
+}
+@media screen and (max-width:750px){
+    .bottom{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .left{
+        width: 90%;
+    }
+    .right{
+        height: 300px;
+        margin-top: 50px;
+    }
+    /* education */
+    .edutab table{
+        margin-left: 80px;
+    }
+    .edu{
+        margin-top: 200px;
+    }
+    /* project */
+    .phead{
+        margin-top: 200px;
+    }
+    .r1,.r2,.r3{
+        flex-direction: column;
+    }
+    .abox1{
+        flex-direction: column;
+    }
+    .abox2{
+        width: 80%;
+    }
+
+}
+@media screen and (max-width:500px){
+    .left{
+        width: 100%;
+    }
+    .edu{
+        margin-top: 300px;
+    }
+    .edu table{
+        margin-left: 200px;
+    }
+    .phead{
+        margin-top: 400px;
+    }
+    .abox2{
+        width: 80%;
+    }
+}
